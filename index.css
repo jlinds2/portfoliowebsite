@@ -1,0 +1,118 @@
+body {
+  font-family: 'Encode Sans Condensed';
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.imagecontainer {
+  text-align: center;
+  font-size: 127px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.idkkheader {
+  text-align: center;
+  font-size: 127px;
+}
+
+.headercontainer {
+  font-size: 47px;
+  align-content: center;
+}
+
+h4 {
+  font-size: 2vw;
+  position: relative;
+}
+
+.imagedetails {
+  height: 347px;
+  width: 347px;
+  border-radius: 47%;
+  object-fit: contain;
+}
+
+.headerimage {
+  position: absolute;
+  width: 1455px;
+  height: 441px;
+  left: 0px;
+  top: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://picsum.photos/seed/200/400");
+}
+
+h2 {
+  margin: 0% auto;
+}
+
+.idkkheader2 {
+  text-align: center;
+  font-size: 27px;
+  position: absolute;
+  top: 495px;
+  margin: 0% auto;
+  min-inline-size: 27px;
+}
+
+.rows {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 27px;
+  min-inline-size: 27px;
+ }
+ 
+a {
+  text-decoration: none;
+  color: gray;
+  margin: 0% auto;
+}
+
+li {
+  display: inline;
+  margin: 0% auto;
+  
+}
+
+.column {
+  columns: 100px 3;
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.headerclass {
+  text-align: center;
+}
+
+.portfolio-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-gallery__item {
+  width: 50%;
+  height: 50vmin;
+  background-size: cover;
+}
+
+#item1 { background-image: url("Shadowcover15.jpg"); }
+#item2 { background-image: url("gigcover15.jpg"); }
+#item3 { background-image: url("https://picsum.photos/seed/300/400"); }
+#item4 { background-image: url("https://picsum.photos/seed/400/400"); }
+
+
+
+
+
+

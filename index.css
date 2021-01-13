@@ -98,6 +98,7 @@ li {
 .portfolio-gallery {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .portfolio-gallery__item {
@@ -111,8 +112,26 @@ li {
 #item3 { background-image: url("https://picsum.photos/seed/300/400"); }
 #item4 { background-image: url("https://picsum.photos/seed/400/400"); }
 
+#item1 {
+  margin-top: 17px;
+  opacity: 1;
+}
+#item1:hover {
+  margin-top: 0px;
+  opacity: 0.5;
+  -webkit-transition: opacity 1s;
+  transition: opacity 0.4s;
+}
 
+#item2 {
+    margin-top: 17px;
+    opacity: 1;
+  }
 
-
-
+#item2:hover {
+    margin-top: 0px;
+    opacity: 0.5;
+    -webkit-transition: opacity 1s;
+    transition: opacity 0.4s;
+  }
 

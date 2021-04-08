@@ -4,7 +4,7 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: 'Encode Sans Condensed';
+    font-family: 'Raleway';
     font-size: 17px;
   }
   .navbar {
@@ -80,7 +80,7 @@
 
 h1 {
     text-align: center;
-    font-family: 'encode sans condensed';
+    font-family: 'raleway';
 
 }
 
@@ -90,5 +90,5 @@ p {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    font-family: 'encode sans condensed';
+    font-family: 'raleway';
 }

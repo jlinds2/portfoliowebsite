@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'raleway';
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #2f2f2f;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+.nav > .nav-links > a:hover {
+  opacity: 0.4;
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+ opacity: 0.4;
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #2f2f2f;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
+
+.gifimage {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+    .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px;
+        
+    }
+
+    .image2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
+      height: 75%;
+    }
+
+    .works {
+        text-align: center;
+    }
+
+    .portfolio-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 50%;
+        
+        
+      }
+      
+      .portfolio-gallery__item {
+        min-width: 50%;
+        min-height: 50vmin;
+        background-size: cover;
+      }
+      
+      
+      
+      
+      #item1 { background-image: url("images/Shadowuicover1515.jpg"); }
+      #item2 { background-image: url("images/Giguicover1515.jpg"); }
+      #item3 { background-image: url("images/Easynotescover2727.png"); }
+      #item4 { background-image: url("https://picsum.photos/seed/400/400"); }
+      
+      #item1 {
+        margin-top: 17px;
+        opacity: 1;
+        animation: slideMe4 0.4s ease-in;
+      }
+      #item1:hover {
+        margin-top: 0px;
+        opacity: 0.5;
+        -webkit-transition: opacity 1s;
+        transition: opacity 0.4s;
+      }
+      
+      #item2 {
+          margin-top: 17px;
+          opacity: 1;
+          animation: slideMe4 0.4s ease-in;
+        }
+      
+      #item2:hover {
+          margin-top: 0px;
+          opacity: 0.5;
+          -webkit-transition: opacity 1s;
+          transition: opacity 0.4s;
+        }
+    
+        #item3 {
+          margin-top: 17px;
+          opacity: 1;
+          animation: slideMe4 0.4s ease-in;
+        }
+      
+      #item3:hover {
+          margin-top: 0px;
+          opacity: 0.5;
+          -webkit-transition: opacity 1s;
+          transition: opacity 0.4s;
+        }
+.imgdescription {
+    visibility: hidden;
+}

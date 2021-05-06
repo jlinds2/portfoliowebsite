@@ -5,12 +5,13 @@
 body {
   margin: 0px;
   font-family: 'raleway';
+  background-color: #FCF9EC;
 }
 
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #FCF9EC;
   position: relative;
 }
 
@@ -20,7 +21,7 @@ body {
 
 .nav > .nav-header > .nav-title {
   display: inline-block;
-  font-size: 22px;
+  font-size: 27px;
   color: #2f2f2f;
   padding: 10px 10px 10px 10px;
 }
@@ -32,7 +33,7 @@ body {
 .nav > .nav-links {
   display: inline;
   float: right;
-  font-size: 18px;
+  font-size: 27px;
 }
 
 .nav > .nav-links > a {
@@ -50,7 +51,7 @@ body {
   display: none;
 }
 
-@media (max-width:600px) {
+@media (max-width: 650px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;

@@ -177,7 +177,7 @@ body {
       #item1:hover {
         margin-top: 0px;
         opacity: 0.5;
-        -webkit-transition: opacity 1s;
+        -webkit-transition: opacity 0.2s;
         transition: opacity 0.4s;
       }
       
@@ -190,7 +190,7 @@ body {
       #item2:hover {
           margin-top: 0px;
           opacity: 0.5;
-          -webkit-transition: opacity 1s;
+          -webkit-transition: opacity 0.2s;
           transition: opacity 0.4s;
         }
     
@@ -203,7 +203,7 @@ body {
       #item3:hover {
           margin-top: 0px;
           opacity: 0.5;
-          -webkit-transition: opacity 1s;
+          -webkit-transition: opacity 0.4s;
           transition: opacity 0.4s;
         }
 .imgdescription {

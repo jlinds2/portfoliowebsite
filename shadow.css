@@ -20,7 +20,7 @@
   
   .nav > .nav-header > .nav-title {
     display: inline-block;
-    font-size: 22px;
+    font-size: 27px;
     color: #2f2f2f;
     padding: 10px 10px 10px 10px;
   }
@@ -32,7 +32,7 @@
   .nav > .nav-links {
     display: inline;
     float: right;
-    font-size: 18px;
+    font-size: 27px;
   }
   
   .nav > .nav-links > a {
@@ -50,7 +50,7 @@
     display: none;
   }
   
-  @media (max-width:600px) {
+  @media (max-width:750px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;

@@ -99,6 +99,27 @@ body {
   }
 }
 
+::-webkit-scrollbar {
+  width: 17px;
+  border-radius: 27px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FCF9EC; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EA7B2B; 
+  border-radius: 27px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b35715;  
+}
+
 
 .image2 {
   display: block;

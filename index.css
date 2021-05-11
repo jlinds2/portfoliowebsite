@@ -169,43 +169,7 @@ body {
       #item3 { background-image: url("images/Easynotescoverthing1577.png"); }
       #item4 { background-image: url("https://picsum.photos/seed/400/400"); }
       
-      #item1 {
-        margin-top: 17px;
-        opacity: 1;
-        animation: slideMe4 0.4s ease-in;
-      }
-      #item1:hover {
-        margin-top: 0px;
-        opacity: 0.5;
-        -webkit-transition: opacity 0.2s;
-        transition: opacity 0.4s;
-      }
-      
-      #item2 {
-          margin-top: 17px;
-          opacity: 1;
-          animation: slideMe4 0.4s ease-in;
-        }
-      
-      #item2:hover {
-          margin-top: 0px;
-          opacity: 0.5;
-          -webkit-transition: opacity 0.2s;
-          transition: opacity 0.4s;
-        }
-    
-        #item3 {
-          margin-top: 17px;
-          opacity: 1;
-          animation: slideMe4 0.4s ease-in;
-        }
-      
-      #item3:hover {
-          margin-top: 0px;
-          opacity: 0.5;
-          -webkit-transition: opacity 0.4s;
-          transition: opacity 0.4s;
-        }
+     
 .imgdescription {
     visibility: hidden;
 }

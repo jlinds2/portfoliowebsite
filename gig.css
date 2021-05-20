@@ -101,6 +101,28 @@ body {
     height: 100%;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 27px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2f2f2f; 
+  border-radius: 27px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2e2e2e;  
+}
+
+
 .images {
     max-width: 1200px;
     margin: 0 auto;

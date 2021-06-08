@@ -6,6 +6,8 @@
     margin: 0px;
     font-family: 'raleway';
     background-color: #FCF9EC;
+    width: 100%;
+    height: 100%;
   }
   
   .nav {
@@ -38,7 +40,7 @@
   
   .nav > .nav-links > a {
     display: inline-block;
-    padding: 13px 10px 13px 10px;
+    padding: 37px 10px 13px 10px;
     text-decoration: none;
     color: #262f32;
   }
@@ -121,11 +123,10 @@
     background: #b35715;  
   }
   
-   .gifimage {
+  .gifimage {
           margin: 0 auto;
           max-width: 1500px;
           max-height: 900px;
-          
       }
       
       .img {
@@ -143,39 +144,40 @@
         margin-right: auto;
         width: 100%;
         height: 100%;
-        justify-content: center;
-        align-items: center;
       }
   
       .works {
           text-align: center;
           color: #262f32;
+          font-size: 47px;
+      }
+
+      .column {
+        float: left;
+        width: 47.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .gigsquare{
+          background-image: url("images/Gigcoverimage7.jpg");
+          border: solid 7px #2f2f2f;
+      }
+
+      .easynotessquare {
+        border: solid 7px #2f2f2f;
+      }
+      
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 500px) {
+        .column {
+          width: 100%;
+        }
       }
   
-      .portfolio-gallery {
-          display: flex;
-          flex-wrap: wrap;
-          min-width: 50%;
-          
-          
-        }
-        
-        .portfolio-gallery__item {
-          min-width: 50%;
-          min-height: 50vmin;
-          background-size: cover;
-        }
-        
-        
-        
-        
-        #item1 { 
-            background-image: url("images/images/EasyNotescover7.jpg");
-            border: solid 7px #2f2f2f;
-        }
-        #item2 { background-image: url(""); }
-        #item3 { 
-            background-image: url("images/images/Gigcoverimage7.jpg"); 
-            border: solid 7px #2f2f2f;
-        }
-        #item4 { background-image: url("https://picsum.photos/seed/400/400"); }

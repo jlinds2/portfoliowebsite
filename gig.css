@@ -64,7 +64,7 @@
       padding: 13px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-   opacity: 0.4;
+      opacity: 0.4;
     }
     .nav > .nav-btn > label > span {
       display: block;

@@ -154,6 +154,11 @@
         animation: floatBubble 1s  normal ease-out;
     }
 
+    #float2 {
+      -webkit-animation: floatBubble 2s infinite  normal ease-out;
+      animation: floatBubble 2s  normal ease-out;
+  }
+
       .image2 {
         -webkit-animation: floatBubble 1s infinite  normal ease-out;
         animation: floatBubble 1s  normal ease-out;

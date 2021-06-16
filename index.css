@@ -51,7 +51,7 @@
     display: none;
   }
   
-  @media (max-width:650px) {
+  @media (max-width:750px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -191,6 +191,12 @@
           max-width: 100%;
           height: auto;
           flex-grow: 1;
+        }
+
+        @media (max-width: 1700px) {
+          .portfolio-gallery {
+            flex-direction: column;
+          }
         }
         
         

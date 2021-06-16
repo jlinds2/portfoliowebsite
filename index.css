@@ -150,23 +150,27 @@
       }
 
       #float {
-        position: relative;
+        -webkit-animation: floatBubble 1s infinite  normal ease-out;
+        animation: floatBubble 1s  normal ease-out;
+    }
+
+      .image2 {
         -webkit-animation: floatBubble 1s infinite  normal ease-out;
         animation: floatBubble 1s  normal ease-out;
     }
     @-webkit-keyframes floatBubble {
         0% {
-            top:500px;
+            top:75px;
             opacity: 0;
         }
         100% {
-            top: 0px;
+            top: 75px;
             opacity: 1;
         }
     }
     @keyframes floatBubble {
         0% {
-            top:500px;
+            top:200px;
             opacity: 0;
         }
         100% {

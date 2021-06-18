@@ -9,7 +9,7 @@
   }
   
   .nav {
-    height: 50px;
+    height: 75px;
     width: 100%;
     background-color: #2f2f2f;
     position: relative;
@@ -63,18 +63,15 @@
       width: 50px;
       height: 50px;
       padding: 13px;
-      color: #ffffff;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      opacity: 0.4;
-      color: #ffffff;
+   opacity: 0.4;
     }
     .nav > .nav-btn > label > span {
       display: block;
       width: 25px;
       height: 10px;
       border-top: 2px solid #ffffff;
-      color: #ffffff;
     }
     .nav > .nav-links {
       position: absolute;
@@ -90,10 +87,12 @@
     .nav > .nav-links > a {
       display: block;
       width: 100%;
-      color: #ffffff;
+    background-color: #2f2f2f;
+    
     }
     .nav > #nav-check:not(:checked) ~ .nav-links {
       height: 0px;
+      
     }
     .nav > #nav-check:checked ~ .nav-links {
       height: calc(100vh - 50px);

@@ -202,7 +202,7 @@
           flex-grow: 1;
         }
 
-        @media (max-width: 1200px) {
+        @media (max-width: 1100px) {
           .portfolio-gallery {
             flex-direction: column;
           }

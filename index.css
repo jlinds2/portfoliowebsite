@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
   }
@@ -5,13 +6,13 @@
   body {
     margin: 0px;
     font-family: 'raleway';
-    background-color: #FCF9EC;
+    background-color: #ffffff;
   }
   
   .nav {
     height: 75px;
     width: 100%;
-    background-color: #FCF9EC;
+    background-color: #ffffff;
     position: relative;
   }
   
@@ -23,7 +24,7 @@
     display: inline-block;
     font-size: 27px;
     color: #262f32;
-    padding: 10px 10px 10px 10px;
+    padding: 17px 27px 27px 17px;
   }
   
   .nav > .nav-btn {
@@ -38,7 +39,7 @@
   
   .nav > .nav-links > a {
     display: inline-block;
-    padding: 13px 10px 13px 10px;
+    padding: 19px 27px 27px 27px;
     text-decoration: none;
     color: #262f32;
   }
@@ -207,22 +208,41 @@
             flex-direction: column;
           }
         }
+        @media (max-width: 700px) {
+          #item2 {
+            flex-direction: column;
+          }
+        }
         
         
         
         
         #item1 { 
-          background-image: url("images/EasyNotescover7.jpg");
+          background-image: url("https://github.com/jlinds2/portfoliowebsite/blob/main/images/EasyNotescover7.jpg?raw=true");
           border: solid 7px #2f2f2f;
           flex-basis: 75px;
           flex-grow: 1;
         }
-        #item2 { background-image: url(""); }
+        #item2 { 
+            background-image: url("https://github.com/jlinds2/portfoliowebsite/blob/main/images/Illustrationsimage7.png?raw=true");
+            border: solid 7px #2f2f2f;
+          flex-basis: 75px;
+          flex-grow: 1;
+          align-items: center;
+          justify-content: center;
+        }
         #item3 { 
-          background-image: url("images/Gigcoverimage7.jpg"); 
+          background-image: url("https://github.com/jlinds2/portfoliowebsite/blob/main/images/Gigcoverimage7.jpg?raw=true"); 
           border: solid 7px #2f2f2f;
           flex-grow: 1;
           flex-basis: 75px;
+          text-align: center;
             
         }
-        #item4 { background-image: url("https://picsum.photos/seed/400/400"); }
+        #item4 { 
+          background-image: url("");
+          border: solid 7px #2f2f2f;
+          flex-grow: 1;
+          flex-basis: 75px;
+          text-align: center;
+         }

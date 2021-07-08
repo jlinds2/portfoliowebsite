@@ -80,7 +80,7 @@
       width: 100%;
       background-color: #FCF9EC;
       height: 0px;
-      transition: all 0.3s ease-in;
+      transition: all 0.2s linear;
       overflow-y: hidden;
       top: 50px;
       left: 0px;
@@ -113,13 +113,13 @@
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #ffc195; 
+    background: #2f2f2f; 
     border-radius: 27px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #b35715;  
+    background: #474747;  
   }
   
    .gifimage {
@@ -150,15 +150,15 @@
           color: #262f32;
       }
 
-      #float {
+      /*#float {
         -webkit-animation: floatBubble 1s infinite  normal ease-out;
         animation: floatBubble 1s  normal ease-out;
     }
 
     #float2 {
-      -webkit-animation: floatBubble 2s infinite  normal ease-out;
-      animation: floatBubble 2s  normal ease-out;
-  }
+      -webkit-animation: floatBubble .5s infinite  normal ease-out;
+      animation: floatBubble .5s  normal ease-out;
+  }*/
 
       .image2 {
         -webkit-animation: floatBubble 1s infinite  normal ease-out;

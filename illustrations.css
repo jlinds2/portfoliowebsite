@@ -78,7 +78,7 @@
       position: absolute;
       display: block;
       width: 100%;
-      background-color: #FCF9EC;
+      background-color: #f4a896;
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
@@ -88,7 +88,7 @@
     .nav > .nav-links > a {
       display: block;
       width: 100%;
-    background-color: #FCF9EC;
+    background-color: #f4a896;
     
     }
     .nav > #nav-check:not(:checked) ~ .nav-links {

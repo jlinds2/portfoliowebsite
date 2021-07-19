@@ -5,13 +5,13 @@
   body {
     margin: 0px;
     font-family: 'raleway';
-    background-color: #FCF9EC;
+    background-color: #ffffff;
   }
   
   .nav {
     height: 75px;
     width: 100%;
-    background-color: #FCF9EC;
+    background-color: #ffffff;
     position: relative;
   }
   
@@ -77,7 +77,7 @@
       position: absolute;
       display: block;
       width: 100%;
-      background-color: #FCF9EC;
+      background-color: #ffffff;
       height: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
@@ -87,7 +87,7 @@
     .nav > .nav-links > a {
       display: block;
       width: 100%;
-    background-color: #FCF9EC;
+    background-color: #ffffff;
     
     }
     .nav > #nav-check:not(:checked) ~ .nav-links {

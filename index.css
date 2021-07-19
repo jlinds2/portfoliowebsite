@@ -108,7 +108,7 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #FCF9EC; 
+    background: #ffffff; 
   }
    
   /* Handle */
@@ -218,13 +218,13 @@
         
         
         #item1 { 
-          background-image: url("https://github.com/jlinds2/portfoliowebsite/blob/main/images/EasyNotescover7.jpg?raw=true");
+          background-image: url("images/Easynotescover177.png");
           border: solid 7px #2f2f2f;
           flex-basis: 75px;
           flex-grow: 1;
         }
         #item2 { 
-            background-image: url("https://github.com/jlinds2/portfoliowebsite/blob/main/images/Illustrationsimage7.png?raw=true");
+            background-image: url("images/Easynotescover177.png");
             border: solid 7px #2f2f2f;
           flex-basis: 75px;
           flex-grow: 1;
@@ -232,7 +232,7 @@
           justify-content: center;
         }
         #item3 { 
-          background-image: url("https://github.com/jlinds2/portfoliowebsite/blob/main/images/Gigcoverimage7.jpg?raw=true"); 
+          background-image: url("images/gigcover177.png"); 
           border: solid 7px #2f2f2f;
           flex-grow: 1;
           flex-basis: 75px;

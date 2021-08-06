@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
   }
@@ -127,7 +128,7 @@ body {
 
 
 .images {
-    max-width: 1200px;
+    max-width: 2200px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;

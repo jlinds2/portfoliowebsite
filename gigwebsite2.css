@@ -96,6 +96,10 @@
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
+
+    .nav-title {
+        visibility: hidden;
+    }
   }
 
   
@@ -187,6 +191,7 @@
     color: white;
     font-size: 57px;
     margin-bottom: 37px;
+    opacity: .7;
   }
   
   .searchone {
@@ -203,6 +208,31 @@
     margin-bottom: 87px;
   }
 
+  .trending {
+      text-align: center;
+      color: white;
+      font-size: 57px;;
+  }
+
+  .bandimg {
+    width: 597px;
+    height: 297px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 27px;
+    box-shadow: 2px 2px #F2EFB6;
+    opacity: .7;
+  }
+
+.triangle {
+    width: 127px;
+    height: 97px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: -187px;
+}
+  
    /* --------------------------------------- */
   
   .sectiontwo {
@@ -217,6 +247,7 @@
       color: white;
       font-size: 37px;
       margin-bottom: 57px;
+      opacity: .7;
   }
   
   .imgsquare {
@@ -297,7 +328,7 @@
         border-radius: 187px;
         margin-bottom: 37px;
         position: relative;
-        left: -7px;
+        left: 7px;
         box-shadow: 7px 7px #F2EFB6;
       }
         
@@ -319,7 +350,7 @@
         background-color: #2f2f2f;
         color: white;
         position: relative;
-        left: -7px;
+        left: 7px;
         box-shadow: 7px 7px #F2EFB6;
         }
         
@@ -335,11 +366,11 @@
 
   
   
-  @media screen and (max-width: 1200px) {
+  @media screen and (min-width: 1525px) and (max-width: 2200px) {
     
     .imgsquare {
-        width: 257px;
-        height: 257px;
+        width: 357px;
+        height: 357px;
         border-radius: 187px;
         margin-bottom: 37px;
         position: relative;
@@ -359,7 +390,7 @@
         
         .searchtwo {
         width: 157px;
-        height: 17px;
+        height: 27px;
         border: 5px white solid;
         border-radius: 27px;
         background-color: #2f2f2f;
@@ -379,7 +410,7 @@
 
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 950px) {
     
     .imgsquare {
         width: 197px;
@@ -441,20 +472,6 @@
     margin-top: 327px;
 }
 
-  div.scrollmenu {
-    background-color: #2f2f2f;
-    overflow: auto;
-    white-space: nowrap;
-  }
-  
-  div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-  }
-
   .gridtwo {
     display: grid;
     grid-template-columns: repeat(3, 7fr);
@@ -466,8 +483,8 @@
   }
   
   .genreimg {
-    width: 587px;
-    height: 587px;
+    width: 387px;
+    height: 387px;
     border-radius: 27px;
     box-shadow: 7px 7px #F2EFB6;
   }
@@ -481,7 +498,7 @@
 
   
 
-  @media screen and (min-width: 1025px) and (max-width: 1500px) {
+  @media screen and (min-width: 1200px) and (max-width: 2200px) {
 
     .gridtwo {
         display: grid;
@@ -509,7 +526,7 @@
 
   }
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 950px) {
     
     .gridtwo {
         display: block;

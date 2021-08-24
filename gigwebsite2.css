@@ -1,0 +1,513 @@
+/* Navbar */
+
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: raleway;
+    background-color: #2f2f2f;
+  }
+  
+  .nav {
+    width: 100%;
+    background-color: #F2EFB6;
+    position: relative;
+  }  
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 27px;
+    color: #2f2f2f;
+    padding: 37px 27px 27px 17px;
+    padding-left: 127px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+
+  .portfolio {
+      text-decoration: none;
+      color: #2f2f2f;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 27px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 47px 27px 27px 27px;
+    text-decoration: none;
+    color: #2f2f2f;
+    padding-right: 127px;
+  }
+  
+  .nav > .nav-links > a:hover {
+    opacity: 0.4;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:1250px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+
+    .nav {
+        height: 97px;
+        width: 100%;
+        background-color: #F2EFB6;
+        position: relative;
+      }
+
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 57px;
+      padding: 27px;
+    }
+
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+   opacity: 0.4;
+    }
+
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+    
+
+    }
+
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #2f2f2f;
+      height: 0px;
+      transition: all 0.2s linear;
+      overflow-y: hidden;
+      top: 17px;
+      left: 0px;
+      margin-bottom: 27px;
+    }
+
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    background-color: #2f2f2f;
+    
+    }
+
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+      
+    }
+
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 100px);
+      overflow-y: auto;
+    }
+  }
+  
+  /* --------------------------------------- */
+
+   /* Section one consisting of the title, 
+   searchbar andsome description */
+  
+  .gigcontainer {
+
+  }
+  
+  .sectionone {
+    height: 100vh;
+    background-color: #2f2f2f;
+  }
+  
+
+  .headerone {
+    color: white;
+    text-align: center;
+    margin-bottom: 7px;
+    padding-top: 67px;
+    font-size: 187px;
+    margin-bottom: 167px;
+    text-shadow:
+
+        0 0 2px #fff,
+        0 0 7px #fff,
+        0 0 15px #fff,
+        0 0 12px #fff,
+        0 0 37px #fff,
+        0 0 57px #fff,
+        0 0 75px #fff,
+        0 0 37px #fff;
+  }
+  
+  .headerone {
+    animation: flicker 2.5s infinite alternate;
+    opacity: .7;   
+  }
+  
+  /* Flickering animation */
+  @keyframes flicker {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #F2EFB6,
+        0 0 80px #F2EFB6,
+        0 0 90px #F2EFB6,
+        0 0 100px #F2EFB6,
+        0 0 127px #F2EFB6;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+        
+    }    
+  }
+
+  .notesgrid {
+    display: grid;
+    grid-template-columns: repeat(2, -27fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 147px;
+  }
+
+  .notesimg {
+    width: 275px;
+
+  }
+
+  .notesimgtwo {
+    width: 275px;
+
+  }
+  
+  .headertwo {
+    text-align: center;
+    color: white;
+    font-size: 57px;
+    margin-bottom: 37px;
+  }
+  
+  .searchone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 257px;
+    height: 27px;
+    border: 5px white solid;
+    border-radius: 27px;
+    background-color: #2f2f2f;
+    color: white;
+    box-shadow: 7px 7px #F2EFB6;
+    margin-bottom: 87px;
+  }
+
+   /* --------------------------------------- */
+  
+  .sectiontwo {
+    height: 85vh;
+    background-color: #2f2f2f;
+  }
+
+  
+
+  .descriptiontwo {
+      text-align: center;
+      color: white;
+      font-size: 57px;
+      margin-bottom: 57px;
+  }
+  
+  .imgsquare {
+    width: 357px;
+    height: 357px;
+    border-radius: 187px;
+    margin-bottom: 57px;
+    position: relative;
+    left: 187px;
+    box-shadow: 7px 7px #F2EFB6;
+  }
+    
+    .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 7fr);
+    gap: 10px;
+    grid-auto-rows: minmax(27px, auto);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    }
+    
+    .searchtwo {
+    width: 257px;
+    height: 37px;
+    border: 5px white solid;
+    border-radius: 27px;
+    background-color: #2f2f2f;
+    color: white;
+    position: relative;
+    left: -127px;
+    box-shadow: 7px 7px #F2EFB6;
+    }
+    
+    .imgtxt {
+    color: white;
+    margin-bottom: 17px;
+    font-size: 27px;
+    position: relative;
+    margin-left: 87px;
+    text-align: center;
+    }
+    
+
+  .headertwo {
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    margin-bottom: 27px;
+    }
+
+/* --------------------------------------- */
+  
+  .notesimg, .notesimgtwo  { 
+      animation-name: floating;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+      margin-left: 17px;
+      margin-top: 5px;
+  }
+   
+  @keyframes floating {
+      0% { transform: translate(0,  0px); }
+      50%  { transform: translate(0, 15px); }
+      100%   { transform: translate(0, -0px); }   
+  }
+  
+
+
+  /*  Different sizes */
+
+  
+  
+  @media screen and (max-width: 1200px) {
+    
+    .imgsquare {
+        width: 257px;
+        height: 257px;
+        border-radius: 187px;
+        margin-bottom: 37px;
+        position: relative;
+        left: 7px;
+        box-shadow: 7px 7px #F2EFB6;
+      }
+        
+        .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 7fr);
+        gap: 10px;
+        grid-auto-rows: minmax(27px, auto);
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        }
+        
+        .searchtwo {
+        width: 157px;
+        height: 17px;
+        border: 5px white solid;
+        border-radius: 27px;
+        background-color: #2f2f2f;
+        color: white;
+        position: relative;
+        left: 15px;
+        box-shadow: 7px 7px #F2EFB6;
+        }
+        
+        .imgtxt {
+        color: white;
+        margin-bottom: 17px;
+        font-size: 27px;
+        position: relative;
+        margin-left: 17px;
+        }
+
+  }
+
+  @media screen and (max-width: 850px) {
+    
+    .imgsquare {
+        width: 197px;
+        height: 197px;
+        display: block;
+        margin: 0px auto;
+        box-shadow: 7px 7px #F2EFB6;
+        margin-bottom: 17px;
+      }
+
+      .grid {
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+        justify-content: center;
+        }
+        
+        
+        .searchtwo {
+        width: 187px;
+        height: 17px;
+        border: 5px white solid;
+        border-radius: 27px;
+        background-color: #2f2f2f;
+        color: white;
+        display: block;
+        margin: 0px auto;
+        box-shadow: 7px 7px #F2EFB6;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        }
+        
+        .imgtxt {
+        color: white;
+        margin-bottom: 17px;
+        font-size: 27px;
+        text-align: center;
+        margin-top: 17px;
+        margin-bottom: 27px;
+        padding-bottom: 7px;
+        }
+  }
+
+  /*---------------------------------------*/
+
+  /*  This is the Genres  */
+  
+  .sectionthree {
+    height: 100vh;
+    background-color: #2f2f2f;
+    
+  }
+  
+
+.genres {
+    color: white;
+    text-align: center;
+    font-size: 127px;
+    margin-top: 327px;
+}
+
+  div.scrollmenu {
+    background-color: #2f2f2f;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  .gridtwo {
+    display: grid;
+    grid-template-columns: repeat(3, 7fr);
+    gap: 10px;
+    grid-auto-rows: minmax(27px, auto);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .genreimg {
+    width: 587px;
+    height: 587px;
+    border-radius: 27px;
+    box-shadow: 7px 7px #F2EFB6;
+  }
+  
+  .genretxt {
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+
+  @media screen and (max-width: 1200px) {
+
+    .gridtwo {
+        display: grid;
+        grid-template-columns: repeat(3, 7fr);
+        gap: 10px;
+        grid-auto-rows: minmax(27px, auto);
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+      }
+      
+      .genreimg {
+        width: 297px;
+        height: 287px;
+        border-radius: 27px;
+        box-shadow: 7px 7px #F2EFB6;
+      }
+      
+      .genretxt {
+        color: white;
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 27px;
+      }
+
+  }
+
+  @media screen and (max-width: 850px) {
+    
+    .gridtwo {
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+        justify-content: center;
+      }
+      
+      .genreimg {
+        width: 297px;
+        height: 287px;
+        border-radius: 27px;
+        box-shadow: 7px 7px #F2EFB6;
+      }
+      
+      .genretxt {
+        color: white;
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 27px;
+      }
+
+  }

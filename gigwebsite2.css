@@ -1,552 +1,308 @@
-/* Navbar */
-
 * {
     margin: 0;
   }
   
   body {
+    height: 100%;
+    margin: 0;
     font-family: raleway;
-    background-color: #2f2f2f;
   }
-  
+  /* -------- This is the nav header --------*/
   .nav {
-    height: 50px;
-    width: 100%;
-    background-color: #F2EFB6;
-    position: relative;
-  }
-  
-  .nav > .nav-header {
-    display: inline;
-  }
-  
-  .nav > .nav-header > .nav-title {
-    display: inline-block;
-    font-size: 27px;
-    color: #2f2f2f;
-    padding: 10px 10px 10px 10px;
-  }
-  
-  .nav > .nav-btn {
-    display: none;
-  }
-  
-  .nav > .nav-links {
-    display: inline;
-    float: right;
-    font-size: 27px;
-  }
-  
-  .nav > .nav-links > a {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
-    text-decoration: none;
-    color: #2f2f2f;
-  }
-  
-  .nav > .nav-links > a:hover {
-    opacity: 0.4;
-  }
-  
-  .nav > #nav-check {
-    display: none;
-  }
-  
-  @media (max-width:850px) {
-    .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-    }
-    .nav > .nav-btn > label {
-      display: inline-block;
-      width: 50px;
       height: 50px;
-      padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-   opacity: 0.4;
-    }
-    .nav > .nav-btn > label > span {
-      display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #2f2f2f;
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
       width: 100%;
       background-color: #F2EFB6;
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
+      position: relative;
     }
+    
+    .nav > .nav-header {
+      display: inline;
+    }
+    
+    .nav > .nav-header > .nav-title {
+      display: inline-block;
+      font-size: 27px;
+      color: #2f2f2f;
+      padding: 10px 10px 10px 10px;
+    }
+    
+    .nav > .nav-btn {
+      display: none;
+    }
+    
+    .nav > .nav-links {
+      display: inline;
+      float: right;
+      font-size: 27px;
+    }
+    
     .nav > .nav-links > a {
-      display: block;
-      width: 100%;
+      display: inline-block;
+      padding: 13px 10px 13px 10px;
+      text-decoration: none;
+      color: #2f2f2f;
     }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
+    
+    .nav > .nav-links > a:hover {
+      opacity: 0.4;
     }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
-      overflow-y: auto;
+    
+    .nav > #nav-check {
+      display: none;
     }
-
-    .nav-title {
-        visibility: hidden;
+    
+    @media (max-width:750px) {
+      .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+      .nav > .nav-btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+      }
+      .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+     opacity: 0.4;
+      }
+      .nav > .nav-btn > label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #2f2f2f;
+      }
+      .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #F2EFB6;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+      }
+      .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+      }
+      .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+      }
+      .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+      }
     }
-  }
-
   
-  /* --------------------------------------- */
-
-   /* Section one consisting of the title, 
-   searchbar andsome description */
-  
-  .gigcontainer {
-
+  section {
+    height: 100vh;
   }
+  
+  /* -------- This is section one --------*/
   
   .sectionone {
-    height: 187vh;
     background-color: #2f2f2f;
-  }
-  
-
-  .headerone {
-    color: white;
-    text-align: center;
-    margin-bottom: 7px;
-    padding-top: 67px;
-    font-size: 187px;
-    margin-bottom: 167px;
-    text-shadow:
-
-        0 0 2px #fff,
-        0 0 7px #fff,
-        0 0 15px #fff,
-        0 0 12px #fff,
-        0 0 37px #fff,
-        0 0 57px #fff,
-        0 0 75px #fff,
-        0 0 37px #fff;
-  }
-  
-  .headerone {
-    animation: flicker 2.5s infinite alternate;
-    opacity: .7;   
-  }
-  
-  /* Flickering animation */
-  @keyframes flicker {
-      
-    0%, 18%, 22%, 25%, 53%, 57%, 100% {
-  
-        text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #F2EFB6,
-        0 0 80px #F2EFB6,
-        0 0 90px #F2EFB6,
-        0 0 100px #F2EFB6,
-        0 0 127px #F2EFB6;
     
+  }
+  
+  .container {
+    padding-top: 7rem;
+  }
+  
+  /* ---- This is the gig animation ----*/
+  .gig {
+    text-align: center;
+    color: white;
+    font-size: 127px;
+    margin-bottom: 127px;
+  }
+  
+    .gig {
+      color: white;
+      text-align: center;
+      margin-bottom: 7px;
+      font-size: 187px;
+      text-shadow:
+  
+          0 0 2px #fff,
+          0 0 7px #fff,
+          0 0 15px #fff,
+          0 0 12px #fff,
+          0 0 37px #fff,
+          0 0 57px #fff,
+          0 0 75px #fff,
+          0 0 37px #fff;
     }
     
-    20%, 24%, 55% {        
-        text-shadow: none;
+    .gig {
+      animation: flicker 2.5s infinite alternate;
+      opacity: .7;   
+    }
+    
+    /* Flickering animation */
+    @keyframes flicker {
         
-    }    
-  }
-
-  .notesgrid {
-    display: grid;
-    grid-template-columns: repeat(2, -27fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    margin-left: 147px;
-  }
-
-  .notesimg {
-    width: 275px;
-
-  }
-
-  .notesimgtwo {
-    width: 275px;
-
-  }
+      0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    
+          text-shadow:
+          0 0 4px #fff,
+          0 0 11px #fff,
+          0 0 19px #fff,
+          0 0 40px #F2EFB6,
+          0 0 80px #F2EFB6,
+          0 0 90px #F2EFB6,
+          0 0 100px #F2EFB6,
+          0 0 127px #F2EFB6;
+      
+      }
+      
+      20%, 24%, 55% {        
+          text-shadow: none;
+          
+      }    
+    }
   
-  .headertwo {
+  .description {
     text-align: center;
     color: white;
-    font-size: 57px;
-    margin-bottom: 37px;
-    opacity: .7;
+    margin-bottom: 27px;
   }
   
-  .searchone {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 257px;
-    height: 27px;
-    border: 5px white solid;
-    border-radius: 27px;
-    background-color: #2f2f2f;
-    color: white;
-    box-shadow: 7px 7px #F2EFB6;
-    margin-bottom: 87px;
-  }
-
-  .trending {
-      text-align: center;
-      color: white;
-      font-size: 57px;;
-  }
-
-  .bandimg {
-    width: 597px;
-    height: 297px;
+  .search {
     display: block;
     margin: 0px auto;
-    border-radius: 27px;
-    box-shadow: 2px 2px #F2EFB6;
-    opacity: .7;
   }
-
-.triangle {
-    width: 127px;
-    height: 97px;
-    display: block;
-    margin: 0px auto;
-    position: relative;
-    top: -187px;
-}
   
-   /* --------------------------------------- */
+  /* -------- This is section two --------*/
   
   .sectiontwo {
-    height: 100vh;
-    background-color: #2f2f2f;
-  }
-
-  
-
-  .descriptiontwo {
-      text-align: center;
-      color: white;
-      font-size: 37px;
-      margin-bottom: 57px;
-      opacity: .7;
+    background-color: white;
   }
   
-  .imgsquare {
-    width: 357px;
-    height: 357px;
-    border-radius: 187px;
-    margin-bottom: 57px;
-    position: relative;
-    left: 187px;
-    box-shadow: 7px 7px #F2EFB6;
-  }
-    
-    .grid {
+  .grid {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 100%; 
     display: grid;
-    grid-template-columns: repeat(3, 7fr);
-    gap: 10px;
-    grid-auto-rows: minmax(27px, auto);
-    width: 100%;
+    /* Define Auto Row size */
+    grid-auto-rows: 100px; 
+    /*Define our columns */
+    grid-template-columns: repeat(auto-fill, minmax(327px, 1fr)); 
+    grid-gap: 1em;
+  }
+  
+  .containertwo {
+  
+  }
+  
+  .searchtxt {
     text-align: center;
-    justify-content: center;
-    }
-    
-    .searchtwo {
-    width: 257px;
-    height: 37px;
-    border: 5px white solid;
-    border-radius: 27px;
-    background-color: #2f2f2f;
-    color: white;
-    position: relative;
-    left: -127px;
-    box-shadow: 7px 7px #F2EFB6;
-    }
-    
-    .imgtxt {
-    color: white;
-    margin-bottom: 17px;
-    font-size: 27px;
-    position: relative;
-    margin-left: 87px;
-    text-align: center;
-    }
-    
-
-  .headertwo {
-    text-align: center;
-    color: white;
-    font-size: 27px;
+  }
+  
+  .sectiontwoimg {
+    width: 327px;
+    height: 327px;
+    border-radius: 97%;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 27px;
-    }
-
-/* --------------------------------------- */
-  
-  .notesimg, .notesimgtwo  { 
-      animation-name: floating;
-      animation-duration: 3s;
-      animation-iteration-count: infinite;
-      animation-timing-function: ease-in-out;
-      margin-left: 17px;
-      margin-top: 5px;
-  }
-   
-  @keyframes floating {
-      0% { transform: translate(0,  0px); }
-      50%  { transform: translate(0, 15px); }
-      100%   { transform: translate(0, -0px); }   
   }
   
-
-
-  /*  Different sizes */
-
-  @media screen and (max-width: 2200px) {
-    
-    .imgsquare {
-        width: 357px;
-        height: 357px;
-        border-radius: 187px;
-        margin-bottom: 37px;
-        position: relative;
-        left: 7px;
-        box-shadow: 7px 7px #F2EFB6;
-      }
-        
-        .grid {
-        display: grid;
-        grid-template-columns: repeat(3, 7fr);
-        gap: 10px;
-        grid-auto-rows: minmax(27px, auto);
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        }
-        
-        .searchtwo {
-        width: 157px;
-        height: 27px;
-        border: 5px white solid;
-        border-radius: 27px;
-        background-color: #2f2f2f;
-        color: white;
-        position: relative;
-        left: 7px;
-        box-shadow: 7px 7px #F2EFB6;
-        }
-        
-        .imgtxt {
-        color: white;
-        margin-bottom: 17px;
-        font-size: 27px;
-        position: relative;
-        margin-left: 17px;
-        }
-
-  }
-
   
+  .searchtwo {
+    display: block;
+    margin: 0 auto;
+  }
   
-  @media screen and (min-width: 1525px) and (max-width: 2200px) {
-    
-    .imgsquare {
-        width: 357px;
-        height: 357px;
-        border-radius: 187px;
-        margin-bottom: 37px;
-        position: relative;
-        left: 7px;
-        box-shadow: 7px 7px #F2EFB6;
-      }
-        
-        .grid {
-        display: grid;
-        grid-template-columns: repeat(3, 7fr);
-        gap: 10px;
-        grid-auto-rows: minmax(27px, auto);
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        }
-        
-        .searchtwo {
-        width: 157px;
-        height: 27px;
-        border: 5px white solid;
-        border-radius: 27px;
-        background-color: #2f2f2f;
-        color: white;
-        position: relative;
-        left: 15px;
-        box-shadow: 7px 7px #F2EFB6;
-        }
-        
-        .imgtxt {
-        color: white;
-        margin-bottom: 17px;
-        font-size: 27px;
-        position: relative;
-        margin-left: 17px;
-        }
-
-  }
-
-  @media screen and (max-width: 950px) {
-    
-    .imgsquare {
-        width: 197px;
-        height: 197px;
-        display: block;
-        margin: 0px auto;
-        box-shadow: 7px 7px #F2EFB6;
-        margin-bottom: 17px;
-      }
-
-      .grid {
-        display: block;
-        margin: 0px auto;
-        text-align: center;
-        justify-content: center;
-        }
-        
-        
-        .searchtwo {
-        width: 187px;
-        height: 17px;
-        border: 5px white solid;
-        border-radius: 27px;
-        background-color: #2f2f2f;
-        color: white;
-        display: block;
-        margin: 0px auto;
-        box-shadow: 7px 7px #F2EFB6;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        }
-        
-        .imgtxt {
-        color: white;
-        margin-bottom: 17px;
-        font-size: 27px;
-        text-align: center;
-        margin-top: 17px;
-        margin-bottom: 27px;
-        padding-bottom: 7px;
-        }
-  }
-
-  /*---------------------------------------*/
-
-  /*  This is the Genres  */
+  /* -------- This is section three --------*/
   
   .sectionthree {
-    height: 65vh;
     background-color: #2f2f2f;
-    
   }
   
-
-.genres {
-    color: white;
-    text-align: center;
-    font-size: 127px;
-    margin-top: 327px;
-}
-
   .gridtwo {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 100%; 
     display: grid;
-    grid-template-columns: repeat(3, 7fr);
-    gap: 10px;
-    grid-auto-rows: minmax(27px, auto);
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-  }
-  
-  .genreimg {
-    width: 387px;
-    height: 387px;
-    border-radius: 27px;
-    box-shadow: 7px 7px #F2EFB6;
+    /* Define Auto Row size */
+    grid-auto-rows: 100px; 
+    /*Define our columns */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    grid-gap: 1em;
   }
   
   .genretxt {
-    color: white;
-    font-size: 27px;
     text-align: center;
+    color: white;
+    padding-top: 27px;
+  }
+  
+  .button {
+    width: 357px;
+    height: 357px;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 27px;
   }
-
   
-
-  @media screen and (min-width: 1200px) and (max-width: 2200px) {
-
-    .gridtwo {
-        display: grid;
-        grid-template-columns: repeat(3, 7fr);
-        gap: 10px;
-        grid-auto-rows: minmax(27px, auto);
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-      }
-      
-      .genreimg {
-        width: 297px;
-        height: 287px;
-        border-radius: 27px;
-        box-shadow: 7px 7px #F2EFB6;
-      }
-      
-      .genretxt {
-        color: white;
-        font-size: 27px;
-        text-align: center;
-        margin-bottom: 27px;
-      }
-
-  }
-
-  @media screen and (max-width: 950px) {
+  @media (max-width:750px) {
     
-    .gridtwo {
-        display: block;
-        margin: 0px auto;
-        text-align: center;
-        justify-content: center;
-      }
-      
-      .genreimg {
-        width: 297px;
-        height: 287px;
-        border-radius: 27px;
-        box-shadow: 7px 7px #F2EFB6;
-      }
-      
-      .genretxt {
-        color: white;
-        font-size: 27px;
-        text-align: center;
-        margin-bottom: 27px;
-      }
-
+    * {
+     margin: 0; 
+    }
+    
+    /* -------- This is section two @media --------*/
+    
+    .sectiontwo {
+      height: 127vh;
+    }
+    
+    
+    .grid {
+    
+    margin: 30px auto;
+    padding: 0 20px;
+   
+    display: grid;
+    /* Define Auto Row size */
+   
+    /*Define our columns */
+   
+    grid-gap: 7em;
+    }
+    
+    
+    .sectiontwoimg {
+    width: 127px;
+    height: 127px;
+    border-radius: 97%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 7px;
+  }
+    
+    /* -------- This is section three @media --------*/
+    
+    .sectionthree {
+      height: 287vh;
+    }
+    
+     .gridtwo {
+  
+    margin: 30px auto;
+    padding: 0 20px;
+  
+    display: grid;
+    /* Define Auto Row size */
+    /*Define our columns */
+  
+    grid-gap: 22em;
+    }
+    
   }

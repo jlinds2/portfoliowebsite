@@ -1,316 +1,316 @@
 * {
-  margin: 0;
-}
-
-body {
-  height: 100%;
-  margin: 0;
-  font-family: raleway;
-}
-/* -------- This is the nav header --------*/
-.nav {
-    height: 50px;
-    width: 100%;
-    background-color: #F2EFB6;
-    position: relative;
+    margin: 0;
   }
   
-  .nav > .nav-header {
-    display: inline;
+  body {
+    height: 100%;
+    margin: 0;
+    font-family: raleway;
   }
-  
-  .nav > .nav-header > .nav-title {
-    display: inline-block;
-    font-size: 27px;
-    color: #2f2f2f;
-    padding: 10px 10px 10px 10px;
-  }
-  
-  .nav > .nav-btn {
-    display: none;
-  }
-  
-  .nav > .nav-links {
-    display: inline;
-    float: right;
-    font-size: 27px;
-  }
-  
-  .nav > .nav-links > a {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
-    text-decoration: none;
-    color: #2f2f2f;
-  }
-  
-  .nav > .nav-links > a:hover {
-    opacity: 0.4;
-  }
-  
-  .nav > #nav-check {
-    display: none;
-  }
-  
-  @media (max-width:750px) {
-    .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-    }
-    .nav > .nav-btn > label {
-      display: inline-block;
-      width: 50px;
+  /* -------- This is the nav header --------*/
+  .nav {
       height: 50px;
-      padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-   opacity: 0.4;
-    }
-    .nav > .nav-btn > label > span {
-      display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #2f2f2f;
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
       width: 100%;
       background-color: #F2EFB6;
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
+      position: relative;
     }
+    
+    .nav > .nav-header {
+      display: inline;
+    }
+    
+    .nav > .nav-header > .nav-title {
+      display: inline-block;
+      font-size: 27px;
+      color: #2f2f2f;
+      padding: 10px 10px 10px 10px;
+    }
+    
+    .nav > .nav-btn {
+      display: none;
+    }
+    
+    .nav > .nav-links {
+      display: inline;
+      float: right;
+      font-size: 27px;
+    }
+    
     .nav > .nav-links > a {
-      display: block;
-      width: 100%;
+      display: inline-block;
+      padding: 13px 10px 13px 10px;
+      text-decoration: none;
+      color: #2f2f2f;
     }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
+    
+    .nav > .nav-links > a:hover {
+      opacity: 0.4;
     }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
-      overflow-y: auto;
+    
+    .nav > #nav-check {
+      display: none;
     }
-  }
-
-section {
-  height: 100vh;
-}
-
-/* -------- This is section one --------*/
-
-.sectionone {
-  background-color: #2f2f2f;
+    
+    @media (max-width:750px) {
+      .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+      .nav > .nav-btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+      }
+      .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+     opacity: 0.4;
+      }
+      .nav > .nav-btn > label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #2f2f2f;
+      }
+      .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #F2EFB6;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+      }
+      .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+      }
+      .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+      }
+      .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+      }
+    }
   
-}
-
-.container {
-  padding-top: 7rem;
-}
-
-/* ---- This is the gig animation ----*/
-.gig {
-  text-align: center;
-  color: white;
-  font-size: 127px;
-  margin-bottom: 127px;
-}
-
+  section {
+    height: 100vh;
+  }
+  
+  /* -------- This is section one --------*/
+  
+  .sectionone {
+    background-color: #2f2f2f;
+    
+  }
+  
+  .container {
+    padding-top: 7rem;
+  }
+  
+  /* ---- This is the gig animation ----*/
   .gig {
-    color: white;
     text-align: center;
-    margin-bottom: 7px;
-    font-size: 187px;
-    text-shadow:
-
-        0 0 2px #fff,
-        0 0 7px #fff,
-        0 0 15px #fff,
-        0 0 12px #fff,
-        0 0 37px #fff,
-        0 0 57px #fff,
-        0 0 75px #fff,
-        0 0 37px #fff;
+    color: white;
+    font-size: 127px;
+    margin-bottom: 127px;
   }
   
-  .gig {
-    animation: flicker 2.5s infinite alternate;
-    opacity: .7;   
-  }
+    .gig {
+      color: white;
+      text-align: center;
+      margin-bottom: 7px;
+      font-size: 187px;
+      text-shadow:
   
-  /* Flickering animation */
-  @keyframes flicker {
-      
-    0%, 18%, 22%, 25%, 53%, 57%, 100% {
-  
-        text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #F2EFB6,
-        0 0 80px #F2EFB6,
-        0 0 90px #F2EFB6,
-        0 0 100px #F2EFB6,
-        0 0 127px #F2EFB6;
-    
+          0 0 2px #fff,
+          0 0 7px #fff,
+          0 0 15px #fff,
+          0 0 12px #fff,
+          0 0 37px #fff,
+          0 0 57px #fff,
+          0 0 75px #fff,
+          0 0 37px #fff;
     }
     
-    20%, 24%, 55% {        
-        text-shadow: none;
+    .gig {
+      animation: flicker 2.5s infinite alternate;
+      opacity: .7;   
+    }
+    
+    /* Flickering animation */
+    @keyframes flicker {
         
-    }    
-  }
-/* --------------------------------------------- */
-.description {
-  text-align: center;
-  color: white;
-  margin-bottom: 27px;
-}
-
-.search {
-  width: 267px;
-  height: 27px;
-  display: block;
-  margin: 0px auto;
-  border-radius: 27px;
-  box-shadow: 2px 2px #F2EFB6;
-}
-
-/* -------- This is section two --------*/
-
-.sectiontwo {
-  background-color: white;
-}
-
-.grid {
-  max-width: 1200px;
-  margin: 30px auto;
-  padding: 0 20px;
-  width: 100%; 
-  display: grid;
-  /* Define Auto Row size */
-  grid-auto-rows: 100px; 
-  /*Define our columns */
-  grid-template-columns: repeat(auto-fill, minmax(327px, 1fr)); 
-  grid-gap: 1em;
-}
-
-.containertwo {
-
-}
-
-.searchtxt {
-  text-align: center;
-}
-
-.sectiontwoimg {
-  width: 327px;
-  height: 327px;
-  border-radius: 97%;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 27px;
-}
-
-
-.searchtwo {
-  display: block;
-  margin: 0 auto;
-}
-
-/* -------- This is section three --------*/
-
-.sectionthree {
-  background-color: #2f2f2f;
-}
-
-.gridtwo {
-  max-width: 1200px;
-  margin: 30px auto;
-  padding: 0 20px;
-  width: 100%; 
-  display: grid;
-  /* Define Auto Row size */
-  grid-auto-rows: 100px; 
-  /*Define our columns */
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-  grid-gap: 1em;
-}
-
-.genretxt {
-  text-align: center;
-  color: white;
-  padding-top: 27px;
-}
-
-.button {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 27px;
-}
-
-.genreimg {
-  width: 357px;
-  height: 357px;
-  object-fit: contain;
-}
-
-@media (max-width:750px) {
-  
-  * {
-   margin: 0; 
+      0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    
+          text-shadow:
+          0 0 4px #fff,
+          0 0 11px #fff,
+          0 0 19px #fff,
+          0 0 40px #F2EFB6,
+          0 0 80px #F2EFB6,
+          0 0 90px #F2EFB6,
+          0 0 100px #F2EFB6,
+          0 0 127px #F2EFB6;
+      
+      }
+      
+      20%, 24%, 55% {        
+          text-shadow: none;
+          
+      }    
+    }
+  /* --------------------------------------------- */
+  .description {
+    text-align: center;
+    color: white;
+    margin-bottom: 27px;
   }
   
-  /* -------- This is section two @media --------*/
+  .search {
+    width: 267px;
+    height: 27px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 27px;
+    box-shadow: 2px 2px #F2EFB6;
+  }
+  
+  /* -------- This is section two --------*/
   
   .sectiontwo {
-    height: 127vh;
+    background-color: white;
   }
-  
   
   .grid {
-  
-  margin: 30px auto;
-  padding: 0 20px;
-  display: grid;
-  /* Define Auto Row size */
-  /*Define our columns */
-  grid-gap: 7em;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 100%; 
+    display: grid;
+    /* Define Auto Row size */
+    grid-auto-rows: 100px; 
+    /*Define our columns */
+    grid-template-columns: repeat(auto-fill, minmax(327px, 1fr)); 
+    grid-gap: 1em;
   }
   
+  .containertwo {
+  
+  }
+  
+  .searchtxt {
+    text-align: center;
+  }
   
   .sectiontwoimg {
-  width: 127px;
-  height: 127px;
-  border-radius: 97%;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 7px;
-}
-  
-  /* -------- This is section three @media --------*/
-  
-  .sectionthree {
-    height: 227vh;
+    width: 327px;
+    height: 327px;
+    border-radius: 97%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 27px;
   }
   
-   .gridtwo {
-  margin: 30px auto;
-  padding: 0 20px;
-  display: grid;
-  /* Define Auto Row size */
-  /*Define our columns */
-  grid-gap: 22em;
+  
+  .searchtwo {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* -------- This is section three --------*/
+  
+  .sectionthree {
+    background-color: #2f2f2f;
+  }
+  
+  .gridtwo {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 100%; 
+    display: grid;
+    /* Define Auto Row size */
+    grid-auto-rows: 100px; 
+    /*Define our columns */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    grid-gap: 1em;
+  }
+  
+  .genretxt {
+    text-align: center;
+    color: white;
+    padding-top: 27px;
+  }
+  
+  .button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 27px;
   }
   
   .genreimg {
-  width: 157px;
-  height: 157px;
-  object-fit: contain;
-}
+    width: 357px;
+    height: 357px;
+    object-fit: contain;
+  }
   
-}
+  @media (max-width:750px) {
+    
+    * {
+     margin: 0; 
+    }
+    
+    /* -------- This is section two @media --------*/
+    
+    .sectiontwo {
+      height: 127vh;
+    }
+    
+    
+    .grid {
+    
+    margin: 30px auto;
+    padding: 0 20px;
+    display: grid;
+    /* Define Auto Row size */
+    /*Define our columns */
+    grid-gap: 7em;
+    }
+    
+    
+    .sectiontwoimg {
+    width: 127px;
+    height: 127px;
+    border-radius: 97%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 7px;
+  }
+    
+    /* -------- This is section three @media --------*/
+    
+    .sectionthree {
+      height: 227vh;
+    }
+    
+     .gridtwo {
+    margin: 30px auto;
+    padding: 0 20px;
+    display: grid;
+    /* Define Auto Row size */
+    /*Define our columns */
+    grid-gap: 22em;
+    }
+    
+    .genreimg {
+    width: 157px;
+    height: 157px;
+    object-fit: contain;
+  }
+    
+  }

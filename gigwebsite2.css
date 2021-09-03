@@ -275,7 +275,7 @@ div#time {
   .fpwylf {
     text-align: center;
     color: #2f2f2f;
-    font-size: 67px;
+    font-size: 57px;
     padding-bottom: 197px;
     margin-top: 27px;
   }
@@ -366,7 +366,7 @@ div#time {
     }
 
 .sectionone {
-  height: 187vh;
+  height: 157vh;
 }
 
     .wt {
@@ -399,15 +399,15 @@ div#time {
     }
 
     .fpwylf {
-      visibility: hidden;
+      font-size: 37px;
     }
     
     
     .grid {
     position: relative;
-    top: -397px;
+    top: -197px;
     margin: 30px auto;
-    padding: 0 20px;
+    padding: 0 17px;
     display: grid;
     /* Define Auto Row size */
     /*Define our columns */
@@ -427,7 +427,7 @@ div#time {
   .searchtwo {
     display: block;
     width: 187px;
-    height: 17px;
+    height: 27px;
     display: block;
     margin: 0 auto;
     border-radius: 27px;
@@ -454,6 +454,12 @@ div#time {
       margin-bottom: 27px;
       opacity: .7;
    
+    }
+
+    .sectionone {
+      background-color: #2f2f2f;
+      height: 137vh;
+      
     }
     
       .animg {

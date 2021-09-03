@@ -185,7 +185,8 @@
 
   .button {
     position: relative;
-    top: -187px;
+    top: -227px;
+    display: block;
     margin: 0 auto;
   }
 
@@ -208,7 +209,7 @@
     box-shadow: 10px 10px gray;
     display: block;
     margin: 0 auto;
-    margin-bottom: 7px;
+    margin-bottom: 2px;
   }
 
 /* ---- For the audio player ----*/
@@ -222,6 +223,7 @@ figure#audioplayer {
   overflow: hidden;
   width: 32rem;
   margin: 0 auto;
+  margin-top: -67px;
 }
 
 figure#audioplayer audio { 
@@ -256,32 +258,6 @@ div#time {
   width: 7.55rem;
   border-left: 1px solid #555; 
 }
-
-figure#audioplayer button { 
-  width: 3rem; height: 3rem; 
-  background: #000; color: #fff; 
-  border: none; 
-}
-
-#playback { 
-  clear: both; 
-}
-
-div#fader { 
-  display: inline-block; 
-}
-
-#playback progress { 
-  margin-left: 1rem; 
-  width: 20rem; height: 12px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-color: #2f2f2f;
-  border: none;
-  color: hsl(44,100%,44%);
-}
-
   
 /* --------------------------------------------- */
 
@@ -299,8 +275,8 @@ div#fader {
   .fpwylf {
     text-align: center;
     color: #2f2f2f;
-    font-size: 87px;
-    margin-bottom: 197px;
+    font-size: 67px;
+    padding-bottom: 197px;
     margin-top: 27px;
   }
   
@@ -348,53 +324,50 @@ div#fader {
   
   .sectionthree {
     background-color: #2f2f2f;
-    height: 187vh;
-  }
+    height: 350vh;
+   }
 
-  .genres {
-    text-align: center;
-    color: white;
-    font-size: 87px;
-  }
-  
-  .gridtwo {
-    max-width: 1200px;
-    margin: 30px auto;
-    padding: 0 20px;
-    width: 100%; 
-    display: grid;
-    /* Define Auto Row size */
-    grid-auto-rows: 100px; 
-    /*Define our columns */
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
-    grid-gap: 27em;
-  }
-  
+   .genres {
+     text-align: center;
+     color: white;
+     font-size: 87px;
+     margin-bottom: 27px;
+   }
+
   .genretxt {
     text-align: center;
     color: white;
-    padding-top: 22px;
-  }
-  
-  .button {
-    display: block;
-    margin: 0 auto;
     margin-bottom: 27px;
   }
-  
-  .genreimg {
-    width: 357px;
-    height: 357px;
-    object-fit: fill;
-    border-radius: 27px;
-    box-shadow: 7px 7px #F2EFB6;
-  }
+   
+   .genreimg {
+     width: 85%;
+     height: 227px;
+     margin-left: 57px;
+     margin-right: 57px;
+     display: block;
+     margin: 0 auto;
+     border-radius: 27px;
+     box-shadow: 7px 7px white;
+     object-fit: cover;
+     margin-bottom: 27px;
+   }
+   
+   img:hover {
+     opacity: .7;
+   }
 
-  @media (max-width:1800px) {
+/* -----------------------------------------------------------*/
+
+  @media (max-width:1200px) {
     
     * {
      margin: 0; 
     }
+
+.sectionone {
+  height: 187vh;
+}
 
     .wt {
       text-align: center;
@@ -416,6 +389,7 @@ div#fader {
 
       .wtc {
         margin: 0 auto;
+        size: 7em;
       }
     
     /* -------- This is section two @media --------*/
@@ -423,22 +397,27 @@ div#fader {
     .sectiontwo {
       height: 157vh;
     }
+
+    .fpwylf {
+      visibility: hidden;
+    }
     
     
     .grid {
-    
+    position: relative;
+    top: -397px;
     margin: 30px auto;
     padding: 0 20px;
     display: grid;
     /* Define Auto Row size */
     /*Define our columns */
-    grid-gap: 12em;
+    grid-gap: 15em;
     }
     
     
     .sectiontwoimg {
-    width: 197px;
-    height: 157px;
+    width: 227px;
+    height: 227px;
     border-radius: 97%;
     display: block;
     margin: 0 auto;
@@ -458,31 +437,11 @@ div#fader {
     
     /* -------- This is section three @media --------*/
     
-    .sectionthree {
-      height: 287vh;
-    }
-    
-     .gridtwo {
-    margin: 30px auto;
-    padding: 0 20px;
-    display: grid;
-    /* Define Auto Row size */
-    /*Define our columns */
-    grid-gap: 12em;
-    }
-    
-    .genreimg {
-    width: 257px;
-    height: 257px;
-    object-fit: fill;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 27px;
-  }
+
     
   }
   
-  @media (max-width:750px) {
+  @media (max-width: 750px) {
     
     * {
      margin: 0; 
@@ -527,7 +486,12 @@ div#fader {
       height: 157vh;
     }
     
-    
+    .searchtxt {
+      position: relative;
+      top: 27px;
+      margin-bottom: 27px;
+    }
+
     .grid {
     
     margin: 30px auto;
@@ -545,44 +509,24 @@ div#fader {
     border-radius: 97%;
     display: block;
     margin: 0 auto;
-    margin-bottom: 7px;
+    margin-bottom: 17px;
   }
 
   .searchtwo {
     display: block;
-    margin: 0 auto;
     width: 187px;
-    height: 17px;
+    height: 27px;
     display: block;
     margin: 0 auto;
     border-radius: 27px;
     border: 2px #2f2f2f solid;
     box-shadow: 7px 7px #F2EFB6;
+    margin-bottom: 27px;
   }
     
     /* -------- This is section three @media --------*/
     
-    .sectionthree {
-      height: 287vh;
-    }
-    
-     .gridtwo {
-    margin: 30px auto;
-    padding: 0 20px;
-    display: grid;
-    /* Define Auto Row size */
-    /*Define our columns */
-    grid-gap: 12em;
-    }
-    
-    .genreimg {
-    width: 257px;
-    height: 257px;
-    object-fit: fill;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 27px;
-  }
+
 
   
     

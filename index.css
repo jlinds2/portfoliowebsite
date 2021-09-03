@@ -341,6 +341,11 @@ section {
   }
 
   @media (max-width: 750px) {
+      
+    .sectionone {
+      height: 87vh;
+    }
+
 
     .topthing {
         text-align: center;

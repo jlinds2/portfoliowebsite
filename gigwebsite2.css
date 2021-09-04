@@ -357,6 +357,16 @@ div#time {
      opacity: .7;
    }
 
+/* -------- This is section three @media --------*/
+
+   @media (max-width: 2200px) {
+
+    .sectionthree {
+      height: 187vh;
+    }
+
+  }
+
 /* -----------------------------------------------------------*/
 
   @media (max-width:1200px) {
@@ -391,6 +401,12 @@ div#time {
         margin: 0 auto;
         size: 7em;
       }
+      
+      .button {
+      position: relative;
+      top: -187px;
+      margin: 0 auto;
+    }
     
     /* -------- This is section two @media --------*/
     

@@ -184,14 +184,14 @@
     margin-bottom: 67px;
   }
 
-  #button {
+  .button {
     position: relative;
     top: -227px;
     display: block;
     margin: 0 auto;
   }
   
-  #button:hover {
+  .button:hover {
     opacity: .7;
   }
 
@@ -308,7 +308,6 @@ div#time {
     margin-bottom: 27px;
   }
   
-  
   .searchtwo {
     display: block;
     margin: 0 auto;
@@ -375,9 +374,9 @@ div#time {
      margin: 0; 
     }
 
-.sectionone {
-  height: 167vh;
-}
+    .sectionone {
+      height: 167vh;
+    }
 
     .wt {
       text-align: center;
@@ -390,6 +389,7 @@ div#time {
     .button {
       position: relative;
       top: -187px;
+      display: block;
       margin: 0 auto;
     }
     
@@ -500,7 +500,8 @@ div#time {
 
       .button {
         position: relative;
-        top: -137px;
+        top: -157px;
+        display: block;
         margin: 0 auto;
       }
     

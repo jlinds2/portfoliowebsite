@@ -7,6 +7,7 @@
     height: 100%;
     margin: 0;
     font-family: raleway;
+    background-color: #2f2f2f;
   }
   /* -------- This is the nav header --------*/
   .nav {
@@ -114,7 +115,7 @@
     padding-top: 7rem;
   }
   
-  /* ---- This is the gig animation ----*/
+  /* - This is the gig animation -*/
   .gig {
     text-align: center;
     color: white;
@@ -183,14 +184,14 @@
     margin-bottom: 67px;
   }
 
-  .button {
+  #button {
     position: relative;
     top: -227px;
     display: block;
     margin: 0 auto;
   }
-
-  .button:hover {
+  
+  #button:hover {
     opacity: .7;
   }
 
@@ -217,7 +218,7 @@
 .wtc {
   margin: 0 auto;
 }
-  
+
 figure#audioplayer { 
   background: #2f2f2f;
   overflow: hidden;
@@ -324,7 +325,7 @@ div#time {
   
   .sectionthree {
     background-color: #2f2f2f;
-    height: 350vh;
+    height: 137vh;
    }
 
    .genres {
@@ -353,13 +354,12 @@ div#time {
      margin-bottom: 27px;
    }
    
-   img:hover {
+   .genreimg:hover {
      opacity: .7;
    }
-
+   
 /* -------- This is section three @media --------*/
-
-   @media (max-width: 2200px) {
+   @media (max-width: 1800px) {
 
     .sectionthree {
       height: 187vh;
@@ -376,7 +376,7 @@ div#time {
     }
 
 .sectionone {
-  height: 157vh;
+  height: 167vh;
 }
 
     .wt {
@@ -385,7 +385,12 @@ div#time {
       font-size: 27px;
       margin-bottom: 27px;
       opacity: .7;
-      visibility: hidden;
+    }
+
+    .button {
+      position: relative;
+      top: -187px;
+      margin: 0 auto;
     }
     
       .animg {
@@ -401,12 +406,6 @@ div#time {
         margin: 0 auto;
         size: 7em;
       }
-      
-      .button {
-      position: relative;
-      top: -187px;
-      margin: 0 auto;
-    }
     
     /* -------- This is section two @media --------*/
     
@@ -453,7 +452,9 @@ div#time {
     
     /* -------- This is section three @media --------*/
     
-
+.sectionthree{
+  height: 187vh;
+}
     
   }
   
@@ -462,24 +463,29 @@ div#time {
     * {
      margin: 0; 
     }
+    figcaption {
+      margin: 0;
+      width: 97%;
+      position: relative;
+    }
 
     .wt {
       text-align: center;
       color: white;
       font-size: 27px;
-      margin-bottom: 27px;
+      margin-bottom: 37px;
       opacity: .7;
    
     }
 
     .sectionone {
       background-color: #2f2f2f;
-      height: 137vh;
+      height: 157vh;
       
     }
     
       .animg {
-        width: 47%;
+        width: 57%;
         height: 27%;
         border: solid white;
         box-shadow: 10px 10px gray;

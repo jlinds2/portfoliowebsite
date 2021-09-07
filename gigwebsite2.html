@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap" rel="stylesheet">
-    <script src="index.js"></script>
+    <script src="gigwebsite2.js"></script>
+    <script src="https://unpkg.com/microne/microne.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -33,11 +34,12 @@
         <div id="float" class="nav-links">
           <a href="websiteidea.html" target="_self">Sign In</a>
           <a href="https://www.instagram.com/drawingsquares/" target="_self">Create an Account</a>
-          <a href="index.html" target="_self">Portfolio</a>
+          <a href="websiteidea.html" target="_self">Portfolio</a>
         </div>
           </div>
   </header>
       <!---------------------------------------------------------->
+
       <!-- -----------------  sectionone ---------------------- -->
       <section class="sectionone">
         <div class="container">
@@ -50,7 +52,9 @@
           <div class="wtc">
             <h2 class="wt">What's Trending</h2>
             <img class="animg" src="https://images.unsplash.com/photo-1542813813-1f873f401e9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-    1.2.1&auto=format&fit=crop&w=2700&q=80" alt="">
-            <img class="button" src="images/Group 211.png" alt="">
+            <img  input type="button" value="PLAY" onclick="play()" id="button" src="images/Group 211.png" alt="">
+            <div class="progress" id="progress"></div>
+      
           </div>
 
           <figure id="audioplayer" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
@@ -59,7 +63,6 @@
               <div>Track<span itemprop="name">A Song</span></div>
               <div id="album">Album<span itemprop="inAlbum">An Album(music included)</span></div>
               <div id="artist">Artist<span itemprop="byArtist">Someone who likes music</span></div>
-               <div id="time">Time<span id="playbacktime">00:00</span></div>
             </figcaption>
               
             </figure>
@@ -68,8 +71,8 @@
 
       </section>
       <!---------------------------------------------------------->
+
       <!-- ----------------- sectiontwo  ---------------------- -->
-      
       <section class="sectiontwo">
 
         <h1 class="fpwylf">Find Specicially What You're Lookin For</h1>
@@ -95,17 +98,13 @@
        </div>
       </section>
       <!---------------------------------------------------------->
+
       <!-- ----------------- sectionthree  ---------------------- -->
-      
-      <section class="sectionthree">
+<section class="sectionthree">
 
 <h1 class="genres">Genres</h1>
-
         <div class="gridtwo">
-          
 
-          <div class="gridtwo">
-            
             <div class="containerthree">
               <h2 class="genretxt">Alternative</h2>
                 <div class="">
@@ -139,8 +138,9 @@
                   <a href=""><img class="genreimg" src="https://images.unsplash.com/photo-1467779009031-53938b78ca38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80" alt=""></a>
             </div>-->
             
-          </div>
-      </section>
+        </div>
+</section>
       <!---------------------------------------------------------->
+
 </body>
 </html>

@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="gigwebsite2.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="gigwebsite2.scss">
     <script src="gigwebsite2.js"></script>
     <script src="https://unpkg.com/microne/microne.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-186875127-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-186875127-1');
+</script>
     <title>Document</title>
 </head>
 <body>
@@ -32,46 +40,42 @@
       </div>
         
         <div id="float" class="nav-links">
-          <a href="" target="_self">Sign In</a>
-          <a href="" target="_self">Create an Account</a>
-          <a href="index.html" target="_self">Portfolio</a>
+          <a href="websiteidea.html" target="_self">Sign In</a>
+          <a href="https://www.instagram.com/drawingsquares/" target="_self">Create an Account</a>
+          <a href="websiteidea.html" target="_self">Portfolio</a>
         </div>
           </div>
   </header>
-      <!---------------------------------------------------------->
-
-      <!-- -----------------  sectionone ---------------------- -->
+  <!---------------------------------------------------------->
+  <!-- -----------------  sectionone ---------------------- -->
       <section class="sectionone">
         <div class="container">
           <h1 class="gig">Gig</h1>
             <h2 class="description">A place to listen, discover and find oppurtunties within music</h2>
               <input class="search" type="text">
           </div>
-
-          <!-- -----------------  Audio player ---------------------- -->
+  <!---------------------------------------------------------->
+  <!-- -----------------  Music details ---------------------- -->
           <div class="wtc">
             <h2 class="wt">What's Trending</h2>
             <img class="animg" src="https://images.unsplash.com/photo-1542813813-1f873f401e9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-    1.2.1&auto=format&fit=crop&w=2700&q=80" alt="">
-            <img class="button"src="images/Group 211.png" alt="">
-      
+            <img class="button" id="musicbutton"src="images/Group 211.png" alt="">
           </div>
 
           <figure id="audioplayer" itemprop="track" itemscope itemtype="http://schema.org/MusicRecording">
-  
             <figcaption>
               <div>Track<span itemprop="name">A Song</span></div>
               <div id="album">Album<span itemprop="inAlbum">An Album(music included)</span></div>
               <div id="artist">Artist<span itemprop="byArtist">Someone who likes music</span></div>
             </figcaption>
-              
             </figure>
           </div>
       </div>
-
+  <!---------------------------------------------------------->
+  <!-- -----------------  Audio player ---------------------- -->
       </section>
-      <!---------------------------------------------------------->
-
-      <!-- ----------------- sectiontwo  ---------------------- -->
+  <!---------------------------------------------------------->
+  <!-- ----------------- sectiontwo  ---------------------- -->
       <section class="sectiontwo">
 
         <h1 class="fpwylf">Find Specicially What You're Lookin For</h1>
@@ -96,50 +100,62 @@
           </div>
        </div>
       </section>
-      <!---------------------------------------------------------->
-
-      <!-- ----------------- sectionthree  ---------------------- -->
+  <!---------------------------------------------------------->
+  <!-- ----------------- sectionthree  ---------------------- -->
 <section class="sectionthree">
-
 <h1 class="genres">Genres</h1>
         <div class="gridtwo">
 
+          <div class="show/hide">
             <div class="containerthree">
               <h2 class="genretxt">Alternative</h2>
                 <div class="">
                     <a href=""><img class="genreimg" src="https://images.unsplash.com/photo-1467779009031-53938b78ca38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80" alt=""></a>
                   </div>
             </div>
-            
+          </div>
+
+          <div class="show/hide">
             <div class="containerthree">
               <h2 class="genretxt">Hip Hop</h2>
-                  <a href=""><img class="genreimg" src="https://images.unsplash.com/photo-1512090421650-1ba94830f7b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2250&q=80" alt=""></a>
-  
+                <div class="">
+                    <a href=""><img class="genreimg" src="https://images.unsplash.com/photo-1512090421650-1ba94830f7b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2250&q=80" alt=""></a>
+                  </div>
             </div>
-            
+          </div>
+
+          <div class="show/hide">
             <div class="containerthree">
               <h2 class="genretxt">Electronic</h2>
-                  <a href=""><img class="genreimg" src="https://images.unsplash.com/photo-1574882225022-9e0e447e9662?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1600&q=80" alt=""></a>
+                <div class="">
+                    <a href=""><img class="genreimg" src="https://images.unsplash.com/photo-1574882225022-9e0e447e9662?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1600&q=80" alt=""></a>
+                  </div>
             </div>
-  
+          </div>
+
+          <div class="show/hide">
             <div class="containerthree">
               <h2 class="genretxt">Country</h2>
-                  <a href=""><img class="genreimg" src="https://images.unsplash.com/photo-1471275287446-f463543ee84f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" alt=""></a>
+                <div class="">
+                    <a href=""><img class="genreimg" src="https://images.unsplash.com/photo-1471275287446-f463543ee84f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" alt=""></a>
+                  </div>
             </div>
-  
+          </div>
+
+          <div class="show/hide">
             <div class="containerthree">
               <h2 class="genretxt">Funk</h2>
-                  <a href=""><img class="genreimg" src="https://images.unsplash.com/photo-1598387846016-cec7c33a898d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3455&q=80" alt=""></a>
+                <div class="">
+                    <a href=""><img class="genreimg" src="https://images.unsplash.com/photo-1598387846016-cec7c33a898d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3455&q=80" alt=""></a>
+                  </div>
             </div>
-  
+          </div>
           <!---  <div class="containerthree">
               <h2 class="genretxt">Genre Stuffs</h2>
                   <a href=""><img class="genreimg" src="https://images.unsplash.com/photo-1467779009031-53938b78ca38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80" alt=""></a>
-            </div>-->
-            
+            </div> --> 
         </div>
+  <!---------------------------------------------------------->
 </section>
-      <!---------------------------------------------------------->
-
 </body>
 </html>

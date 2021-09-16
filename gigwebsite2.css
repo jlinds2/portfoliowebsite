@@ -190,8 +190,15 @@
     display: block;
     margin: 0 auto;
   }
+
+  #musicbutton {
+    position: relative;
+    top: -227px;
+    display: block;
+    margin: 0 auto;
+  }
   
-  .button:hover {
+  #musicbutton:hover {
     opacity: .7;
   }
 
@@ -214,6 +221,8 @@
   }
 
 /* ---- For the audio player ----*/
+
+/* ---- For the music description ----*/
 
 .wtc {
   margin: 0 auto;
@@ -341,8 +350,8 @@ div#time {
   }
    
    .genreimg {
-     width: 85%;
-     height: 227px;
+     width: 57%;
+     
      margin-left: 57px;
      margin-right: 57px;
      display: block;
@@ -386,7 +395,7 @@ div#time {
       opacity: .7;
     }
 
-    .button {
+    #musicbutton {
       position: relative;
       top: -187px;
       display: block;
@@ -453,7 +462,7 @@ div#time {
     /* -------- This is section three @media --------*/
     
 .sectionthree{
-  height: 187vh;
+  height: 57vh;
 }
     
   }
@@ -498,7 +507,7 @@ div#time {
         margin: 0 auto;
       }
 
-      .button {
+      #musicbutton {
         position: relative;
         top: -157px;
         display: block;
@@ -508,6 +517,55 @@ div#time {
       .button:hover {
         opacity: .7;
       }
+
+      /* ---- For the music description ----*/
+
+.wtc {
+  margin: 0 auto;
+}
+
+figure#audioplayer { 
+  background: #2f2f2f;
+  overflow: hidden;
+  width: 27rem;
+  margin: 0 auto;
+  margin-top: -67px;
+}
+
+figure#audioplayer audio { 
+  width: 0; 
+  height: 0; 
+}
+
+figure#audioplayer figcaption { 
+
+  font-size: 0;
+  margin: .45rem; 
+  float: left; 
+  border: 1px solid #555;
+}
+figure#audioplayer figcaption div { 
+
+  color: white;
+  text-transform: uppercase; font-size: .8rem;
+  display: inline-block;
+}
+figure#audioplayer figcaption div span { 
+  display: block;
+  font-size: 1.3rem;
+  text-indent: 1rem; 
+}
+div#album { 
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+  width: 100%; 
+}
+div#time { 
+  width: 7.55rem;
+  border-left: 1px solid #555; 
+}
+  
+/* --------------------------------------------- */
     
     /* -------- This is section two @media --------*/
     

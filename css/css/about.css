@@ -10,7 +10,7 @@ img {
 }
 
   nav {margin-top: 7px;}
-  a{text-decoration: none; color:white;font-size: 22px;padding-left: 7px; padding-right: 7px;}
+  a{text-decoration: none; color:white;font-size: 22px;padding-left: 7px; padding-right: 7px;padding-bottom: 27px;}
   .navlinks:hover{animation: shake 0.7s;
     animation-iteration-count: infinite;}
   @keyframes shake {

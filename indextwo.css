@@ -110,4 +110,9 @@ body {
     grid-template-columns: repeat(3);
     }
 }
+
+  @media (max-width:1500px) {
+      
+
+}
   

@@ -111,8 +111,8 @@ body {
     }
 }
 
-  @media (max-width:1500px) {
-      #alink{height: 187px;}  
+  @media screen and (min-width: 1900px) {
+      #alink{height: 257px;}  
 
 }
   

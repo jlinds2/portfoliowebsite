@@ -1,3 +1,4 @@
+
 /*-- idk what Im doin --*/
 
 body {
@@ -14,7 +15,7 @@ body {
   /*-- Navbar --*/
   nav {margin-top: 7px;}
   a{text-decoration: none; color:white;font-size: 22px;padding-left: 7px; padding-right: 7px;}
-  .navlinks:hover{animation: shake 0.7s;
+  .navlinks:hover{animation: shake 5s;
     animation-iteration-count: infinite;}
   @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -39,6 +40,7 @@ body {
     background-color: #0D97AC;
     box-shadow:7px 7px #2f2f2f;
   }
+  /*--  --*/
   
   .container{padding-top: 127px;}
   button {background-color: transparent;}
@@ -100,6 +102,12 @@ body {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
+  img {
+      padding-top: 27px;
+      object-fit: contain;
+      text-align: center;
+  }
+
   @media (max-width:650px) {
    #wrapper{display: inline-block;}
    #alink{margin-bottom: 37px;}
@@ -108,11 +116,11 @@ body {
     display: grid;
     text-align: center; width:27%;margin: 0 auto;
     grid-template-columns: repeat(3);
+    justify-content: center;
+    align-items: center;
+    }
+
+    .titlesquare {
+        width: 67%;
     }
 }
-
-  @media (min-width: 1900px) {
-      #alink{height: 257px;}  
-
-}
-  

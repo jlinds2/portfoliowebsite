@@ -60,14 +60,6 @@ a{text-decoration: none; color:white;font-size: 22px;padding-left: 7px; padding-
     background-color: white;
   }
   
-  .imglink:hover + .imginfo, .imginfo:hover{
-      opacity: 1;
-    bottom: .78vw;
-  }
-  
-  .img { transition: all .2s ease-in-out; }
-  .img:hover { transform: scale(1.7); }
-  
   .imgdesc{
     font-size: .58vw;
     color: dimgray;

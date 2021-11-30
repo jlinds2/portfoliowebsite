@@ -32,9 +32,9 @@
     display: inline-block;
     float: right;
     margin-right: 27px;
-    border: 2px solid #2f2f2f;
+    border: 2px solid white;
     border-radius: 27px;
-    background-color: #0D97AC;
+    background-color: #2f2f2f;
     box-shadow:7px 7px #2f2f2f;
   }
   /*--  --*/

@@ -71,7 +71,7 @@ body {
     text-align: center;
   }
   
-  #alink {
+  .alink {
     display: block;
     margin: 0 auto;
     text-decoration: none; 
@@ -81,7 +81,7 @@ body {
     background-color: white;
     box-shadow: 2px 3px;
   }
-  #alink:hover {
+  .alink:hover {
     /*-webkit-filter: blur(0.7px);
     filter: blur(0.7px);*/
     animation: shake 7s;

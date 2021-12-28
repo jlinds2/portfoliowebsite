@@ -1,0 +1,201 @@
+*{margin:0;padding:0;}
+
+body{
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Italiana', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.section-one{
+  min-height:100vh;
+  background-color: #292929;
+}
+
+.navbar{
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 2px;
+  float: right;
+  padding-right: 27px;
+  padding-left: 27px;
+  height: 47px;
+}
+
+.links{
+  float: left;
+  margin-bottom: 57px;
+  display: inline-blocks;
+}
+
+a{
+  text-decoration:none;
+  color:#2f2f2f;
+  padding-right:17px;
+  font-size: 37px;
+}
+a:hover{filter:blur(.02px);color:#F2EFB6;}
+
+section{text-align: center;}
+
+h1{
+  color: #e8e8e8;
+  font-size: 67px;
+}
+
+p{color: #e8e8e8;font-size: 27px}
+
+.title-container{
+  text-align: center;
+  padding-top: 57px;
+  height:auto;
+  object-fit: cover;
+}
+
+  .gig {
+    color: white;
+    font-size: 187px;
+    margin-bottom: 17px;
+    text-shadow:
+
+        0 0 2px #fff,
+        0 0 7px #fff,
+        0 0 15px #fff,
+        0 0 12px #fff,
+        0 0 37px #fff,
+        0 0 57px #fff,
+        0 0 75px #fff,
+        0 0 37px #fff;
+  }
+  
+  .gig {
+    animation: flicker 2.5s infinite alternate;
+    opacity: .7;   
+  }
+  
+  /* Flickering animation */
+  @keyframes flicker {
+      
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #F2EFB6,
+        0 0 80px #F2EFB6,
+        0 0 90px #F2EFB6,
+        0 0 100px #F2EFB6,
+        0 0 127px #F2EFB6;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+        
+    }    
+  }
+
+button{border: none;
+background: none;color: #e8e8e8;}
+
+input{border:2px solid #292929;box-shadow:5px 7px #F2EFB6;}
+.input-one{height:17px;width:157px;border-radius:7px;margin-top:7px;}
+
+
+#slide{
+  color:#e8e8e8;
+  font-size:37px;
+  padding-top:27px;
+  width:27%;
+  margin: 0 auto;
+  margin-top:87px;
+  height: auto;
+}
+
+#panel {
+  display: none;
+  padding: 37px;
+  color: #e8e8e8;
+  /*background-color:#e8e8e8;*/
+  width: 37%;
+  margin: 0 auto;
+  border-radius: 27px;
+  height: auto;
+  border: 2px solid #e8e8e8;
+}
+
+.section-two{
+  background-color:#292929;
+  min-height:50vh;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  text-align: center;
+  padding-top: 67px;
+  height: auto;
+  margin:0 auto;
+}
+
+.search{
+  display: block;
+}
+
+.currentValue {
+	background: #2f2f2f;
+	min-height: 5px;
+	width: 50%;
+  border-radius: 3px;
+	}
+
+.section-two-title{color:#e8e8e8;font-size:37px;margin-bottom:7px;height:auto;}
+.section-two-images{width:237px;height:237px;border-radius:97%;padding-bottom:17px;display:block;margin:0 auto;}
+
+.input-two{border-radius:7px;height: 17px;margin-bottom:7px;}
+
+.section-three{min-height:100vh;background-color:#292929;}
+
+.genre-title{text-align: center;padding-top:157px;height:auto;margin-bottom:27px;}
+.genre-title-two{color: #e8e8e8;}
+
+.genre-img{
+  width: 57%;
+  height: 327px;
+  border-radius: 7px;
+  box-shadow: 7px 7px #babaa2;
+  margin: 0 auto;
+}
+
+#slideshow {
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: 35%;
+}
+
+  .slick-dots li button::before {
+    font-size: 16px;
+    color: #e8e8e8;
+    opacity: 0.7;
+  }
+
+  .slick-dots li.slick-active button::before {
+    color: #fff;
+    opacity: 1;
+  }
+
+@media (max-width:750px) {
+  nav{text-align:center;left: 0;
+right: 0;}
+  a{font-size:17px;text-align:center;}
+  .navbar{height: 27px;}
+  
+  .wrapper{display:block;}
+  .section-two-images{width:157px;height:157px;}
+  .section-two-title{font-size:17px;}
+  .input-two{margin-bottom:17px;}
+  
+}

@@ -227,6 +227,7 @@ body {
 
   @media (max-width:650px) {
    #wrapper{display: inline-block;}
+   #wrapper-two{display: inline-block;}
    #alink{margin-bottom: 37px;}
 
    nav {

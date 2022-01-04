@@ -17,6 +17,14 @@
 </head>
 <body>
     <section class="section-one">
+      <div class="nav-container">
+        <button id="toggle" class="nav-toggle-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </button>
+    </div>
+
         <nav>
           <div class="navbar">
             <a class="links" href="">Log In</a>
@@ -33,9 +41,9 @@
                 <input class="input-one" type="text">
           </div>
           
-            <div id="slide">New To Gig? </div>
+          <div id="slide">New To Gig? </div>
           <div id="panel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor posuere libero, a lacinia erat finibus id. Pellentesque vulputate ornare eros, et mattis felis. Etiam et velit a lacus vulputate maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sit amet rutrum quam, eget suscipit urna. Nulla tincidunt, nisi a venenatis pulvinar, metus orci imperdiet lectus, et faucibus purus nulla sit amet tellus. Maecenas tristique, lorem eget eleifend mollis, nisl met</div>
-        </section>
+    </section>
         
         <section class="section-two">
             
@@ -95,12 +103,19 @@
            </div>
         </section>
 
+
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
         <script src="jquery/jquery.js"></script>
         <script src="gigwebsite.js"></script>
         <script src="jquery/slick-1.8.1/slick/slick.min.js" type="text/javascript"></script>
         <script type="text/javascript">
+        $(document).ready(function(){
+        $("#toggle").click(function(){
+          $("#sliding-nav-bar").toggle("slide");
+          });
+        });
+
             $(document).ready(() => {
             $('#slideshow .slick').slick({
             autoplay: true,

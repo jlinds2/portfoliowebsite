@@ -1,4 +1,7 @@
-body {font-family: 'Jost', sans-serif;background-color: #fcd4d0;}
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: #fcd4d0;
+}
 
   .navlinks{
     display: inline-block;

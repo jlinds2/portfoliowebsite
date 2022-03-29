@@ -66,6 +66,52 @@
    background: #ff9b85;
  }
 }
+
+.demo-1 {
+  height: 67px;  
+  overflow: hidden;
+  position: relative;
+ }
+ 
+ .demo-1 p {
+  font-size: 1.5em;
+  color: #2f2f2f;
+  position: absolute;
+  width: 100%;
+  height: 75%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);  
+  transform:translateX(100%);
+  /* Apply animation to this element */  
+  -moz-animation: demo-1 15s linear infinite;
+  -webkit-animation: demo-1 15s linear infinite;
+  animation: demo-1 15s linear infinite;
+ }
+ /* Move it (define the animation) */
+ @-moz-keyframes demo-1 {
+  0%   { -moz-transform: translateX(100%); }
+  100% { -moz-transform: translateX(-100%); }
+ }
+ @-webkit-keyframes demo-1 {
+  0%   { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(-100%); }
+ }
+ @keyframes demo-1 {
+  0%   { 
+  -moz-transform: translateX(100%); /* Firefox bug fix */
+  -webkit-transform: translateX(100%); /* Firefox bug fix */
+  transform: translateX(100%);     
+  }
+  100% { 
+  -moz-transform: translateX(-100%); /* Firefox bug fix */
+  -webkit-transform: translateX(-100%); /* Firefox bug fix */
+  transform: translateX(-100%); 
+  }
+ }
   
   .text-decoration{
     margin: 0 auto;
@@ -91,6 +137,9 @@
     text-decoration: none;
     color:#2f2f2f;
     margin-bottom: 12%;
+    border: 2px solid #2f2f2f;
+    border-radius: 27px;
+    box-shadow: 7px 7px #2f2f2f;
   }
 
   #a-name:hover{

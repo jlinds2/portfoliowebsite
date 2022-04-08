@@ -11,16 +11,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
-    <link rel="stylesheet" href="css/gigwebsite.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="gigwebsite.css">
     <script src="gigwebsite.js"></script>
     
 </head>
 <body>
     <section class="section-one">
           <button id="toggle" class="nav-toggle-button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="45" height="45" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <line x1="4" y1="6" x2="20" y2="6"></line>
+              <line x1="4" y1="12" x2="20" y2="12"></line>
+              <line x1="4" y1="18" x2="20" y2="18"></line>
+           </svg>
         </button>
         <nav>
           <div id="toggle-navbar" class="navbar">
@@ -36,10 +40,10 @@
             <h1 class="gig">Gig</h1>
               <p>Have a band? <br> Want to find bands? <br> Want to hear bands?</p>
                 <input class="input-one" type="text">
-          </div>
           
-          <div id="slide">New To Gig? </div>
-          <div id="panel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor posuere libero, a lacinia erat finibus id. Pellentesque vulputate ornare eros, et mattis felis. Etiam et velit a lacus vulputate maximus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi sit amet rutrum quam, eget suscipit urna. Nulla tincidunt, nisi a venenatis pulvinar, metus orci imperdiet lectus, et faucibus purus nulla sit amet tellus. Maecenas tristique, lorem eget eleifend mollis, nisl met</div>
+            <div class="ntg">New To Gig?</div>
+          <div class="explainin-gig">Wither you're looking for new bands in your area, a band trying to find new opportunities or a musician wanting to share their work, this is an all in one platform to work with how music works in the 21st century</div>
+        </div>
     </section>
         
         <section class="section-two">
@@ -60,7 +64,7 @@
             
            <div class="search">
             <h2 class="section-two-title">Search For Bands <br> in Your Area</h2>
-            <img class="section-two-images" src="https://images.unsplash.com/photo-1598517834429-cf49a9e6077d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1585&q=80" alt="">
+            <img class="section-two-images" src="https://images.unsplash.com/photo-1592197871261-fc1c6d3f9972?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1530&q=80" alt="">
             <input class="input-two" type="text">
            </div>
             
@@ -99,33 +103,9 @@
             </div>
            </div>
         </section>
-
-
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-        <script src="jquery/jquery.js"></script>
-        <script src="gigwebsite.js"></script>
         <script src="jquery/slick-1.8.1/slick/slick.min.js" type="text/javascript"></script>
-        <script type="text/javascript">
-        $(document).ready(function(){
-        $("#toggle").click(function(){
-          $("#toggle-navbar").toggle("slide");
-          });
-        });
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="gigwebsite.js"></script>
 
-            $(document).ready(() => {
-            $('#slideshow .slick').slick({
-            autoplay: true,
-            dots: true,
-            slidesToShow: 3,
-            responsive: [{
-            breakpoint: 750,
-            settings: {
-            slidesToShow: 1,
-      }
-    }]
-    });
-  });
-</script>
 </body>
 </html>

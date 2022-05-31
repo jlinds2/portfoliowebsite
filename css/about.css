@@ -1,6 +1,5 @@
 body{
     text-align: center;
-    background-color: #f2efb6;
     font-family: monospace;
 }
 
@@ -33,7 +32,6 @@ a{
   
   h2{
     font-size: 5rem;
-    text-shadow: 7px 7px tan;
   }
 
   img{

@@ -1,16 +1,9 @@
-$('#a-name').hover(function(){
-    $(this).text("About");
-}, function() {
-    $(this).text("Jon Lindsey");
+$(".square-one").hover(function (){
+    $("#image-one, .text-one").toggle();
 });
-
-$('h3').hover(function(){
-    $(this).text("Full Stack Designer Who Loves to Create");
-}, function() {
-    $(this).text("User Experience, User Interface and Web Development ");
+$(".square-two").hover(function (){
+    $("#image-two, .text-two").toggle();
 });
-
-$("#slide, #slide-four").hover(function(){
-  $(this).find("#panel, #panel-four").stop().toggle("slow");
+$(".square-three").hover(function (){
+    $("#image-three, .text-three").toggle();
 });
-

@@ -6,15 +6,9 @@
     font-family: monospace;
   }
 
-  .navlinks{
-    display: inline-block;
-    float: right;
-    margin-right: 27px;
+.nav-links{
     border: 2px solid #2f2f2f;
     border-radius: 27px;
-    margin-top:2%;
-    padding: 2%;
-    min-height: 100%;
 }
 
   a{

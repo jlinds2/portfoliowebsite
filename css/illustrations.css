@@ -1,5 +1,6 @@
 body {
   font-family: monospace;
+  text-align: center;
 }
 
   .navlinks{
@@ -20,7 +21,7 @@ body {
   }
 
 .header{
-    font-size: 6vw;
+      font-size: 6vw;
       text-align: center;
       align-content: center;
       padding-top: 17vw;

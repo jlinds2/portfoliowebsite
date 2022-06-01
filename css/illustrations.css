@@ -3,6 +3,10 @@ body{
     font-family: monospace;
 }
 
+nav{
+    padding: 27px;
+}
+
 a{
     text-decoration: none;
     color: #2f2f2f;

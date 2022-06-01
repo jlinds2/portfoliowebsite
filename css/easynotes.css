@@ -5,6 +5,10 @@ body{
     font-family: monospace;
 }
 
+nav{
+    padding: 27px;
+}
+
 a{
     text-decoration: none;
     color: white;

@@ -36,5 +36,5 @@ $(".square-three").hover(function (){
     $("#image-three, .text-three").toggle();
 });
 $(".square-four").hover(function (){
-    $("#image-three, .text-three").toggle();
+    $("#image-four, .text-four").toggle();
 });

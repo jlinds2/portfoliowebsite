@@ -97,6 +97,7 @@ font-size: 1.2rem;
 #image-one, #image-two, #image-three, #image-four{
     height: 157px;
     visibility: visible;
+    border-radius: 27px;
 }
 
 @keyframes shake {
